@@ -17,33 +17,29 @@ section {
     justify-content: center;
 }
 
-section>a>img {
+.profile-photo img {
     border-radius: 50%;
     border: 1px solid #BB99DD;
     padding: 4px;
     max-width: 220px;
 }
 
-section>a {
+.profile-photo {
     border-radius: 50%;
 }
 
-section>p {
+.username {
     color: #BB99DD;
     margin: 15px auto 30px auto;
     transition: all 0.2s linear;
-}
-
-section>p>a {
-    color: #BB99DD;
     text-decoration: none;
 }
 
-section>p>a:hover {
+.username:hover {
     text-decoration: underline;
 }
 
-button {
+.button {
     background-color: transparent;
     border: 2px solid #BB99DD;
     color: #BB99DD;
@@ -53,17 +49,19 @@ button {
     margin-bottom: 10px;
     border-radius: 4px;
     transition: all 0.2s linear;
+    text-decoration: none;
+    text-align: center;
 }
 
-button:hover {
+.button:hover {
     background-color: #BB99DD;
     color: #fff;
 }
 
-div {
+.social-links {
     margin-top: 30px;
 }
 
-div>a {
+.social-links a {
     margin: 0 8px;
 }
