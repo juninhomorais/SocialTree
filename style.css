@@ -3,3 +3,44 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    background-color: #FAF7FD;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section>img {
+    border-radius: 50%;
+    border: 1px solid #BB99DD;
+    padding: 4px;
+    max-width: 280px;
+}
+
+section>p {
+    color: #BB99DD;
+    margin: 15px auto 30px auto;
+}
+
+button {
+    background-color: transparent;
+    border: 2px solid #BB99DD;
+    color: #BB99DD;
+    width: 300px;
+    padding: 12px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    transition: all 0.2s linear;
+}
+
+button:hover {
+    background-color: #BB99DD;
+    color: #fff;
+}
