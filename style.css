@@ -31,6 +31,16 @@ section>a {
 section>p {
     color: #BB99DD;
     margin: 15px auto 30px auto;
+    transition: all 0.2s linear;
+}
+
+section>p>a {
+    color: #BB99DD;
+    text-decoration: none;
+}
+
+section>p>a:hover {
+    text-decoration: underline;
 }
 
 button {
