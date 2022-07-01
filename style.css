@@ -16,11 +16,15 @@ section {
     justify-content: center;
 }
 
-section>img {
+section>a>img {
     border-radius: 50%;
     border: 1px solid #BB99DD;
     padding: 4px;
     max-width: 280px;
+}
+
+section>a {
+    border-radius: 50%;
 }
 
 section>p {
