@@ -22,6 +22,12 @@ section {
     border: 1px solid #BB99DD;
     padding: 4px;
     max-width: 220px;
+    transition: all 0.2s linear;
+}
+
+.profile-photo:hover img {
+    padding: 0;
+    border: 0;
 }
 
 .profile-photo {
@@ -64,4 +70,9 @@ section {
 
 .social-links a {
     margin: 0 8px;
+    transition: all 0.2s linear;
+}
+
+.social-links a:hover {
+    opacity: 0.8;
 }
