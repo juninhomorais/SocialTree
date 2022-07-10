@@ -7,12 +7,17 @@
 :root {
     --bg-color: #09090a;
     --main-color: #4863f7;
+    --second-color: #ffffff;
     --text-hover-color: #fff;
 }
 
 body {
     background-color: var(--bg-color);
     font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
 }
 
 .container {
@@ -46,7 +51,7 @@ body {
 }
 
 .username {
-    color: var(--main-color);
+    color: var(--second-color);
     margin: 15px auto 30px auto;
     transition: all 0.2s linear;
     text-decoration: none;
@@ -82,8 +87,10 @@ body {
 .social-links a {
     margin: 0 8px;
     transition: all 0.2s linear;
+    color: var(--second-color);
+    font-size: 20px;
 }
 
 .social-links a:hover {
-    opacity: 0.8;
+    color: var(--main-color);
 }
